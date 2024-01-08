@@ -1,25 +1,61 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
-/* common shared  */
-.container{
-    width: 1320px;
-    height: 600px;
-}
+
+
+/* common shared style  */
 
 /* font section */
 
 .font1 {
-  font-family: "Merriweather", serif;
+    font-family: "Merriweather", serif;
+  }
+  
+  .font2 {
+    font-family: "Inter", sans-serif;
+  }
+
+
+.container{
+
+    max-width: 1320px;
+    height: 600px;
 }
 
-.font2 {
-  font-family: "Inter", sans-serif;
+/* Header Section Styles  */
+
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)100%), url(../images/Banner-Image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 82%;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+.banner>h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 177px;
+    margin-bottom: 0;
+}
+.banner>h1 {
+    color: #FFF;
+    width: 632px;
+    margin: 16px auto;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
 }
 
-/* footer section start  */
+
+
+/* footer section styles start  */
 
 .footer {
-  width: 1600px;
+  width: 100%;
   height: 609px;
   background: #070211;
   padding: 120px 140px;
