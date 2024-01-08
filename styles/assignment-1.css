@@ -1,9 +1,14 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
 /* common shared  */
 .container{
     width: 82%;
-    max-width: 1320px;
+     max-width: 1320px;
     height: auto;
     text-align: center;
     margin-left: auto;
@@ -50,7 +55,7 @@ font-family: 'Merriweather', serif; */
 }
 
 
-/* banner part style here  */
+/* banner or header part style here  */
 
 .banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)100%), url(../images/Banner-Image.png);
@@ -116,7 +121,7 @@ font-family: 'Merriweather', serif; */
 }
 
 
-/* midnight party section style  */
+/* midnight party section for  style  */
 .midnight-party-container {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
@@ -171,12 +176,11 @@ font-family: 'Merriweather', serif; */
 }
 
 
-/* hotel-info-container part style  */
+/* hotel-info-container part for styling  */
 .hotel-container {
     margin-top: 120px;
     margin-bottom: 120px;
     border-radius: 16px;
-    padding: 120px 200px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
@@ -206,13 +210,63 @@ font-family: 'Merriweather', serif; */
 }
 
 
+/* best offer section for styles */
+
+
+.new-best-offer-container {
+    margin-top: 120px;
+    display: flex;
+    align-items: last baseline;
+    gap: 150px;
+    background: #FFF;
+}
+
+.new-offer-info-img-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+
+.new-offer-info {
+    width: 550px;
+    text-align: left;
+}
+
+.new-offer-img img {
+    width: 75%;
+    border-radius: 463px;
+    padding: 50px;
+    border: 15px solid #F00;
+}
+
+.new-year-compliment {
+    width: 100%;
+    text-align: left;
+}
+
+.year-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+
+
+
 /* footer section start  */
 
 
 .footer {
     width: 100%;
   max-width: 1600px;
-  height: 609px;
+  height: auto;
+  max-height: 600px;
   background: #070211;
   padding: 120px 140px;
   color: #fff;
@@ -235,7 +289,6 @@ font-family: 'Merriweather', serif; */
   height: 80px;
 }
 .footer hr {
-  width: 1320px;
   height: 1px;
   background: rgba(255, 255, 255, 0.15);
 }
@@ -246,3 +299,4 @@ font-family: 'Merriweather', serif; */
   display: flex;
   justify-content: space-between;
 }
+
