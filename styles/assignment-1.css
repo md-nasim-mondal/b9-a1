@@ -69,7 +69,6 @@ font-family: 'Merriweather', serif; */
 .banner > h5 {
   color: #fff;
   text-align: center;
-  font-family: Merriweather;
   font-size: 32px;
   padding-top: 177px;
   margin-bottom: 0;
@@ -80,7 +79,6 @@ font-family: 'Merriweather', serif; */
   width: 632px;
   margin: 16px auto;
   text-align: center;
-  font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
 }
@@ -88,20 +86,17 @@ font-family: 'Merriweather', serif; */
 .div-h1 {
   color: #f00;
   text-align: center;
-  font-family: "Inter", sans-serif;
   font-size: 88px;
   font-weight: 700;
 }
 
 .section-div-1 {
   text-align: center;
-  font-family: "Inter", sans-serif;
   margin: 60px 398px 0px 399px;
 }
 
 .div-h4 {
   color: #f00;
-  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
@@ -333,9 +328,9 @@ font-family: 'Merriweather', serif; */
   text-align: center;
 }
 
-#anouncement{
-    width: 890;
-    height: 64;
+#anouncement {
+  width: 890;
+  height: 64;
 }
 .form-part {
   margin-top: 48px;
@@ -370,7 +365,7 @@ input[type="email"]:hover {
   top: 1px;
 }
 
-/* footer section start  */
+/* footer section start style here */
 
 .footer {
   width: 100%;
@@ -411,4 +406,12 @@ input[type="email"]:hover {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
+}
+
+.footer-btn {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
 }
