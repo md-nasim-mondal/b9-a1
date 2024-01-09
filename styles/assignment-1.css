@@ -366,49 +366,52 @@ input[type="email"]:hover {
 }
 
 /* footer section start style here */
-
-.footer {
+.footer{
   width: 100%;
   max-width: 1600px;
-  min-width: 1320px;
   height: auto;
-  background: #070211;
-  padding: 120px 140px;
+  max-height: 600px;
+  background-color: #070211;
+  width: auto;
+}
+
+.footer-main-container1{
+  width: 82%;
+  max-width: 1320px;
+  height: auto;
   color: #fff;
-  font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px; /* 166.667% */
   margin: auto;
   justify-self: center;
 }
-.footer .footer-container {
+.footer .footer-main-container1 .footer-container-upper {
   display: flex;
   justify-content: space-between;
+  padding: 120px 0 50px 0;
 }
 
-.footer .footer-container {
-  margin: 120px 0 50px 0;
-}
-.footer .footer-container .footer-text {
+.footer .footer-main-container1  .footer-container-upper .footer-text {
   width: 375px;
   height: 80px;
 }
-.footer hr {
+.footer .footer-main-container1  hr {
   height: 1px;
   background: rgba(255, 255, 255, 0.15);
 }
-.footer .footer-img {
+.footer .footer-main-container1  .footer-img {
   text-align: center;
   padding: 48px 60px;
 }
-.footer .footer-end {
+.footer .footer-main-container1  .footer-end {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-bottom: 120px;
+  margin: 50px 120px 120px auto;
 }
 
-.footer-btn {
+.footer .footer-main-container1 .footer-end .footer-btn {
   border: 0;
   background: transparent;
   color: #fff;
