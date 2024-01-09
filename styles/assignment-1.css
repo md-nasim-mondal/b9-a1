@@ -250,7 +250,7 @@ font-family: 'Merriweather', serif; */
 }
 
 /* from here holiday section style start  */
-.holiday-div {
+/* .holiday-div {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -287,12 +287,12 @@ font-family: 'Merriweather', serif; */
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 500;
-  line-height: 32px; /* 160% */
-}
+  line-height: 32px;
+} */
 
 /* best gifts part for  style  */
 .gift-section-container {
-  margin-top: 120px;
+  margin-top: auto;
   text-align: start;
 }
 
