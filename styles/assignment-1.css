@@ -322,8 +322,8 @@ font-family: 'Merriweather', serif; */
   margin: 120px auto;
   padding: 80px 212px;
   text-align: center;
-  width: 75%;
-  max-width: 1250px;
+  width: 68%;
+  max-width: 1320px;
   height: auto;
   text-align: center;
 }
@@ -373,7 +373,11 @@ input[type="email"]:hover {
   max-height: 600px;
   background-color: #070211;
   width: auto;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .footer-main-container1{
   width: 82%;
@@ -383,8 +387,11 @@ input[type="email"]:hover {
   font-size: 24px;
   font-weight: 500;
   line-height: 40px; /* 166.667% */
-  margin: auto;
   justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+
 }
 .footer .footer-main-container1 .footer-container-upper {
   display: flex;
