@@ -366,7 +366,7 @@ input[type="email"]:hover {
 }
 
 /* footer section start style here */
-.footer{
+.footer {
   width: 100%;
   max-width: 1600px;
   height: auto;
@@ -378,8 +378,7 @@ input[type="email"]:hover {
   margin-right: auto;
 }
 
-
-.footer-main-container1{
+.footer-main-container1 {
   width: 82%;
   max-width: 1320px;
   height: auto;
@@ -391,7 +390,6 @@ input[type="email"]:hover {
   margin-left: auto;
   margin-right: auto;
   padding: auto;
-
 }
 .footer .footer-main-container1 .footer-container-upper {
   display: flex;
@@ -399,19 +397,19 @@ input[type="email"]:hover {
   padding: 120px 0 50px 0;
 }
 
-.footer .footer-main-container1  .footer-container-upper .footer-text {
+.footer .footer-main-container1 .footer-container-upper .footer-text {
   width: 375px;
   height: 80px;
 }
-.footer .footer-main-container1  hr {
+.footer .footer-main-container1 hr {
   height: 1px;
   background: rgba(255, 255, 255, 0.15);
 }
-.footer .footer-main-container1  .footer-img {
+.footer .footer-main-container1 .footer-img {
   text-align: center;
   padding: 48px 60px;
 }
-.footer .footer-main-container1  .footer-end {
+.footer .footer-main-container1 .footer-end {
   display: flex;
   justify-content: space-between;
   padding-bottom: 120px;
