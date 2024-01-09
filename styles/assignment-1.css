@@ -250,7 +250,7 @@ font-family: 'Merriweather', serif; */
 }
 
 /* from here holiday section style start  */
-/* .holiday-div {
+.holiday-div {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -288,7 +288,36 @@ font-family: 'Merriweather', serif; */
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
-} */
+}
+
+
+
+
+.box-container{
+  margin-top: 60px;
+  height: 650px;
+  width: 100%;
+  background-image: url("../images/Rectangle-2.png"), url(../images/Rectangle-1.png);
+  background-position:left bottom, right top;
+  background-repeat: no-repeat;
+
+}
+
+
+.box-container .box-container-position #img-g44 {
+  width: 250px;
+ margin-left: 225px;
+  padding-top: 30px;
+  margin-top: 78px;
+}
+
+.box-container .box-container-position2 #img-g75 {
+  width: 350px;
+  padding-bottom: 80px;
+  margin-right: 800px;
+}
+
+
 
 /* best gifts part for  style  */
 .gift-section-container {
